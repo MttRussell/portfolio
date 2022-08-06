@@ -1,0 +1,33 @@
+h2 {
+    text-align: center;
+    font-family: $font;
+    font-size: 2rem;
+}
+
+.aboutMe p {
+    width: 50%;
+    font-family: 'Nanum Pen Script';
+}
+
+
+
+.topIcons {
+    display: flex;
+    flex: row;
+    justify-content: space-evenly;
+    i {
+        font-size: 3rem;
+    }
+    margin-bottom: 25px;
+
+}
+
+.bottomIcons {
+    display: flex;
+    flex: row;
+    justify-content: space-evenly;
+    i {
+        font-size: 3rem;
+    }
+
+}

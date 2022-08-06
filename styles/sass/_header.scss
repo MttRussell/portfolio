@@ -1,0 +1,27 @@
+header nav li {
+    list-style: none;
+    display: inline;
+    padding: 0 50px;
+    font-family: $font;
+    font-size: 2rem;
+    a {
+        color: inherit;
+        
+    }
+    
+
+}
+
+.headBanner {
+    background-color: salmon;
+}
+
+
+
+h1 {   
+    font-size: 50px;
+    font-family: $font;   
+    text-align: center;
+    margin-top: 200px;
+    margin-bottom: 200px;
+}

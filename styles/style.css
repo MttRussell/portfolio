@@ -220,3 +220,68 @@ template {
   clip: rect(0 0 0 0);
   overflow: hidden;
 }
+
+header nav li {
+  list-style: none;
+  display: inline;
+  padding: 0 50px;
+  font-family: "Amatic SC";
+  font-size: 2rem;
+}
+header nav li a {
+  color: inherit;
+}
+
+.headBanner {
+  background-color: salmon;
+}
+
+h1 {
+  font-size: 50px;
+  font-family: "Amatic SC";
+  text-align: center;
+  margin-top: 200px;
+  margin-bottom: 200px;
+}
+
+h2 {
+  text-align: center;
+  font-family: "Amatic SC";
+  font-size: 2rem;
+}
+
+.aboutMe p {
+  width: 50%;
+  font-family: "Nanum Pen Script";
+}
+
+.topIcons {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-flex: row;
+      -ms-flex: row;
+          flex: row;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  margin-bottom: 25px;
+}
+.topIcons i {
+  font-size: 3rem;
+}
+
+.bottomIcons {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-flex: row;
+      -ms-flex: row;
+          flex: row;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+}
+.bottomIcons i {
+  font-size: 3rem;
+}
