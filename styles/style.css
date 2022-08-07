@@ -246,7 +246,7 @@ ul {
 
 .headBanner nav li {
   list-style: none;
-  font-family: "League Spartan";
+  font-family: "League Spartan", normal;
   font-size: 2rem;
 }
 .headBanner nav li a {
@@ -255,7 +255,7 @@ ul {
 
 h1 {
   font-size: 50px;
-  font-family: "League Spartan";
+  font-family: "League Spartan", normal;
   text-align: center;
   padding-top: 200px;
   padding-bottom: 200px;
@@ -265,7 +265,7 @@ h1 {
 
 html {
   background-color: #B6CAA2;
-  font-family: "League Spartan";
+  font-family: "League Spartan", normal;
   color: #F8F4F3;
 }
 
@@ -276,10 +276,16 @@ h2 {
 
 .aboutMe p {
   width: 90%;
-  font-family: "League Spartan";
+  font-family: "League Spartan", normal;
   text-align: center;
   font-size: 1.8rem;
   margin: 30px;
+  font-weight: normal;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
 }
 
 .drag, .willow {
@@ -298,6 +304,19 @@ h2 {
   margin: 15px;
 }
 .dragText h3, .willowText h3 {
+  font-size: 1.7rem;
+}
+.dragText p, .willowText p {
+  font-weight: normal;
+  margin-bottom: 10px;
+}
+
+.willowText {
+  width: 60%;
+  text-align: center;
+  margin: 15px;
+}
+.willowText h3 {
   font-size: 1.7rem;
 }
 
@@ -335,8 +354,28 @@ h2 {
 }
 
 .cont p {
-  font-size: 1.7rem;
+  font-size: 1.4rem;
   margin-top: 0;
+}
+
+.social {
+  list-style: none;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  padding: 20px;
+}
+.social i {
+  font-size: 3rem;
+}
+.social #email {
+  font-size: 2.5rem;
 }
 
 p {

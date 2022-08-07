@@ -16,7 +16,14 @@ h2 {
     text-align: center;
     font-size: 1.8rem;
     margin: 30px;
+    font-weight: normal;
     
+    
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
 }
 
 .drag, .willow {
@@ -32,7 +39,20 @@ h2 {
     h3 {
         font-size: 1.7rem;
     }
+    p {
+        font-weight: normal;
+        margin-bottom: 10px;
+    }
     width: 50%;
+    text-align: center;
+    margin: 15px;
+}
+
+.willowText {
+    h3 {
+        font-size: 1.7rem;
+    }
+    width: 60%;
     text-align: center;
     margin: 15px;
 }
@@ -60,6 +80,22 @@ h2 {
 }
 
 .cont p {
-    font-size: 1.7rem;
+    font-size: 1.4rem;
     margin-top: 0;
+}
+
+.social {
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding: 20px;
+    i {
+        font-size: 3rem;
+    }
+    #email {
+        font-size: 2.5rem;
+        
+    }
+
 }
