@@ -235,6 +235,7 @@ ul {
 }
 
 .siteNav li a {
+  text-decoration: none;
   -webkit-transition: color 0.7s;
   transition: color 0.7s;
 }
@@ -281,12 +282,23 @@ h2 {
   margin: 30px;
 }
 
-.drag img {
-  width: 50%;
+.drag, .willow {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
 }
 
-.dragText {
+.drag, .willow img {
+  width: 100%;
+}
+
+.dragText, .willowText {
   width: 50%;
+  text-align: center;
+  margin: 15px;
+}
+.dragText h3, .willowText h3 {
+  font-size: 1.7rem;
 }
 
 .topIcons {
@@ -323,7 +335,7 @@ h2 {
 }
 
 .cont p {
-  font-size: 2rem;
+  font-size: 1.7rem;
   margin-top: 0;
 }
 

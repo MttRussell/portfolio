@@ -19,12 +19,22 @@ h2 {
     
 }
 
-.drag img {
-        width: 50%;}
+.drag, .willow {
+    display: flex;
+}
+
+.drag, .willow img {
+        width: 100%;
+    }
 
 
-.dragText {
+.dragText, .willowText {
+    h3 {
+        font-size: 1.7rem;
+    }
     width: 50%;
+    text-align: center;
+    margin: 15px;
 }
 
 .topIcons {
@@ -36,8 +46,8 @@ h2 {
     }
     margin-top: 50px;
     margin-bottom: 50px;
-
 }
+
 
 .bottomIcons {
     display: flex;
@@ -50,6 +60,6 @@ h2 {
 }
 
 .cont p {
-    font-size: 2rem;
+    font-size: 1.7rem;
     margin-top: 0;
 }

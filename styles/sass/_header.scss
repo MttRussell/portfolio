@@ -6,6 +6,7 @@ ul {
 }
 
 .siteNav li a {
+    text-decoration: none;
     transition: color 0.7s;
 }
 .siteNav li a:hover {
@@ -13,10 +14,12 @@ ul {
 }
 
 
+
 .headBanner nav li {
     list-style: none;
     font-family: $font;
     font-size: 2rem;
+    
     a {
         color: inherit;
         
