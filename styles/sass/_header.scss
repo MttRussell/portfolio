@@ -1,7 +1,20 @@
-span nav li {
+ul {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    
+}
+
+.siteNav li a {
+    transition: color 0.7s;
+}
+.siteNav li a:hover {
+    color: salmon;
+}
+
+
+.headBanner nav li {
     list-style: none;
-    display: ;
-    padding: 0 50px;
     font-family: $font;
     font-size: 2rem;
     a {
@@ -12,9 +25,6 @@ span nav li {
 
 }
 
-.headBanner {
-    background-color: salmon;
-}
 
 
 
@@ -22,6 +32,8 @@ h1 {
     font-size: 50px;
     font-family: $font;   
     text-align: center;
-    margin-top: 200px;
-    margin-bottom: 200px;
+    padding-top: 200px;
+    padding-bottom: 200px;
+    font-weight: bold;
+    width: 100%;
 }

@@ -1,25 +1,41 @@
+html {
+    background-color: #B6CAA2;
+    font-family: $font;
+    color:  #F8F4F3;
+}
+
 h2 {
     text-align: center;
-    font-family: $font;
     font-size: 2rem;
+    
 }
 
 .aboutMe p {
-    width: 100%;
-    font-family: 'Nanum Pen Script';
+    width: 90%;
+    font-family: $font;
     text-align: center;
+    font-size: 1.8rem;
+    margin: 30px;
+    
 }
 
+.drag img {
+        width: 50%;}
 
+
+.dragText {
+    width: 50%;
+}
 
 .topIcons {
     display: flex;
     flex: row;
     justify-content: space-evenly;
     i {
-        font-size: 3rem;
+        font-size: 3.3rem;
     }
-    margin-bottom: 25px;
+    margin-top: 50px;
+    margin-bottom: 50px;
 
 }
 
@@ -27,8 +43,13 @@ h2 {
     display: flex;
     flex: row;
     justify-content: space-evenly;
+    margin-bottom: 50px;
     i {
         font-size: 3rem;
     }
+}
 
+.cont p {
+    font-size: 2rem;
+    margin-top: 0;
 }

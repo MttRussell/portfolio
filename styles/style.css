@@ -221,39 +221,72 @@ template {
   overflow: hidden;
 }
 
-span nav li {
-  list-style: none;
-  display: inline;
-  padding: 0 50px;
-  font-family: "Amatic SC";
-  font-size: 2rem;
-}
-span nav li a {
-  color: inherit;
+ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
 }
 
-.headBanner {
-  background-color: salmon;
+.siteNav li a {
+  -webkit-transition: color 0.7s;
+  transition: color 0.7s;
+}
+
+.siteNav li a:hover {
+  color: salmon;
+}
+
+.headBanner nav li {
+  list-style: none;
+  font-family: "League Spartan";
+  font-size: 2rem;
+}
+.headBanner nav li a {
+  color: inherit;
 }
 
 h1 {
   font-size: 50px;
-  font-family: "Amatic SC";
+  font-family: "League Spartan";
   text-align: center;
-  margin-top: 200px;
-  margin-bottom: 200px;
+  padding-top: 200px;
+  padding-bottom: 200px;
+  font-weight: bold;
+  width: 100%;
+}
+
+html {
+  background-color: #B6CAA2;
+  font-family: "League Spartan";
+  color: #F8F4F3;
 }
 
 h2 {
   text-align: center;
-  font-family: "Amatic SC";
   font-size: 2rem;
 }
 
 .aboutMe p {
-  width: 100%;
-  font-family: "Nanum Pen Script";
+  width: 90%;
+  font-family: "League Spartan";
   text-align: center;
+  font-size: 1.8rem;
+  margin: 30px;
+}
+
+.drag img {
+  width: 50%;
+}
+
+.dragText {
+  width: 50%;
 }
 
 .topIcons {
@@ -266,10 +299,11 @@ h2 {
   -webkit-box-pack: space-evenly;
       -ms-flex-pack: space-evenly;
           justify-content: space-evenly;
-  margin-bottom: 25px;
+  margin-top: 50px;
+  margin-bottom: 50px;
 }
 .topIcons i {
-  font-size: 3rem;
+  font-size: 3.3rem;
 }
 
 .bottomIcons {
@@ -282,7 +316,19 @@ h2 {
   -webkit-box-pack: space-evenly;
       -ms-flex-pack: space-evenly;
           justify-content: space-evenly;
+  margin-bottom: 50px;
 }
 .bottomIcons i {
   font-size: 3rem;
+}
+
+.cont p {
+  font-size: 2rem;
+  margin-top: 0;
+}
+
+p {
+  text-align: center;
+  font-weight: bold;
+  margin-bottom: 0;
 }
