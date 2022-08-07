@@ -221,14 +221,14 @@ template {
   overflow: hidden;
 }
 
-header nav li {
+span nav li {
   list-style: none;
   display: inline;
   padding: 0 50px;
   font-family: "Amatic SC";
   font-size: 2rem;
 }
-header nav li a {
+span nav li a {
   color: inherit;
 }
 
@@ -251,8 +251,9 @@ h2 {
 }
 
 .aboutMe p {
-  width: 50%;
+  width: 100%;
   font-family: "Nanum Pen Script";
+  text-align: center;
 }
 
 .topIcons {
