@@ -33,6 +33,7 @@ a {
     background-color: salmon;
     padding: 5px;
     margin: 5px;
+    font-size: 1.3rem;
 }
 .drag, .willow img {
         width: 100%;
@@ -95,12 +96,15 @@ a {
     flex-direction: row;
     justify-content: space-around;
     padding: 20px;
+    transition: color 0.7s;
     i {
         font-size: 3rem;
     }
     #email {
-        font-size: 2.5rem;
-        
+        font-size: 2.5rem;        
     }
+}
 
+ .social .email:hover, .linked:hover, .github:hover {
+    color: salmon;
 }
