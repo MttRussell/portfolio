@@ -29,7 +29,11 @@ a {
 .drag, .willow {
     display: flex;
 }
-
+.gitLink, .liveLink {
+    background-color: salmon;
+    padding: 5px;
+    margin: 5px;
+}
 .drag, .willow img {
         width: 100%;
     }
@@ -42,6 +46,7 @@ a {
     p {
         font-weight: normal;
         margin-bottom: 10px;
+        font-size: 1.5rem;
     }
     width: 50%;
     text-align: center;
@@ -65,7 +70,7 @@ a {
         font-size: 3.3rem;
     }
     margin-top: 50px;
-    margin-bottom: 50px;
+    margin-bottom: 70px;
 }
 
 
