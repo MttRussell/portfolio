@@ -241,7 +241,7 @@ ul {
 }
 
 .siteNav li a:hover {
-  color: salmon;
+  color: lightblue;
 }
 
 .headBanner nav li {
@@ -295,7 +295,7 @@ a {
 }
 
 .gitLink, .liveLink {
-  background-color: salmon;
+  background-color: lightblue;
   padding: 5px;
   margin: 5px;
   font-size: 1.3rem;
