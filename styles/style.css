@@ -288,7 +288,7 @@ a {
   color: inherit;
 }
 
-.drag, .willow {
+.drag, .haiku {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -299,32 +299,39 @@ a {
   padding: 5px;
   margin: 5px;
   font-size: 1.3rem;
+  -webkit-transition: color 0.7s;
+  transition: color 0.7s;
 }
 
-.drag, .willow img {
+.gitLink:hover, .liveLink:hover {
+  background-color: #F8F4F3;
+  color: lightblue;
+}
+
+.drag, .haiku img {
   width: 100%;
 }
 
-.dragText, .willowText {
+.dragText, .haikuText {
   width: 50%;
   text-align: center;
   margin: 15px;
 }
-.dragText h3, .willowText h3 {
+.dragText h3, .haikuText h3 {
   font-size: 1.7rem;
 }
-.dragText p, .willowText p {
+.dragText p, .haikuText p {
   font-weight: normal;
   margin-bottom: 10px;
   font-size: 1.5rem;
 }
 
-.willowText {
+.haikuText {
   width: 60%;
   text-align: center;
   margin: 15px;
 }
-.willowText h3 {
+.haikuText h3 {
   font-size: 1.7rem;
 }
 
@@ -389,7 +396,7 @@ a {
 }
 
 .social .email:hover, .linked:hover, .github:hover {
-  color: salmon;
+  color: lightblue;
 }
 
 p {
