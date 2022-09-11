@@ -281,6 +281,7 @@ h2 {
   font-size: 1.8rem;
   margin: 30px;
   font-weight: normal;
+  padding: 0 15px 0 15px;
 }
 
 a {
@@ -305,6 +306,15 @@ a {
 
 .gitLink:hover, .liveLink:hover {
   background-color: #F8F4F3;
+  color: lightblue;
+}
+
+.portfolio {
+  -webkit-transition: color 0.7s;
+  transition: color 0.7s;
+}
+
+.portfolio:hover {
   color: lightblue;
 }
 
